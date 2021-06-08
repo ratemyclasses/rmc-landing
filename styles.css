@@ -1,15 +1,32 @@
 .hero {
-    background-image: url("review_component.svg");
-    background-repeat: no-repeat;
+  background-image: url("review_component.svg");
+  background-repeat: no-repeat;
 }
 
 .main-cont {
-    height: 600px;
+  width: 1200px;
 }
 
-/* 
-@media only screen and (max-width: 600px) {
-    .review-comp{
-        margin-bottom: 100px;
-    }
-} */
+@media only screen and (max-width: 1280px) {
+  .main-cont {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-cont {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-cont {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 648px) {
+  .main-cont {
+    width: 100%;
+  }
+}
